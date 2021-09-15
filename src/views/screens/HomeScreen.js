@@ -147,7 +147,7 @@ const HomeScreen = ({navigation}) => {
           </View>
 
           <View style={style.sortBtn}>
-            <Icon name="tune" color={COLORS.white} size={25} />
+            <Icon  name="tune" color={COLORS.white} size={25} />
           </View>
         </View>
 
@@ -209,7 +209,7 @@ const style = StyleSheet.create({
     backgroundColor: COLORS.white,
     borderRadius: 20,
     paddingTop: 10,
-    paddingHorizontal: 10,
+    paddingHorizontal: 10, 
   },
   optionsCardImage: {
     height: 140,
